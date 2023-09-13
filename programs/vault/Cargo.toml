@@ -24,8 +24,8 @@ no-capture = []
 
 [dependencies]
 serde = { version = "1.0.136" }
-anchor-lang = "0.26.0"
-anchor-spl = "0.26.0"
+anchor-lang = "0.26"
+anchor-spl = "0.26"
 
 [dev-dependencies]
 solana-program-test = "~1.14.12"
