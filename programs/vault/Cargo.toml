@@ -24,12 +24,14 @@ no-capture = []
 
 [dependencies]
 serde = { version = "1.0.136" }
-anchor-lang = "0.26"
-anchor-spl = "0.26"
+anchor-lang = "0.28"
+anchor-spl = "0.28"
 
 [dev-dependencies]
-solana-program-test = "~1.14.12"
-assert_matches = "1.5.0"
-async-trait = "0.1.52"
-solana-sdk = "~1.14.12"
-spl-associated-token-account = { version = "1.1.2", features = ["no-entrypoint"] }
+# solana-program-test = "~1.16"
+# assert_matches = "1.5.0"
+# async-trait = "0.1.52"
+# solana-sdk = "~1.16"
+# spl-associated-token-account = { version = "1.1.2", features = [
+#     "no-entrypoint",
+# ] }
